@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my Week 2 HTML5 assignment</h1>
+        <p>This simple multi-section webpage containing lists, tables, media and form</p>
+    </header>
+
+      <nav aria-label="Navigation Pannel">
+        <ul>
+            <li><a href="#my-favs"> Favorites</a></li>
+            <li><a href="#cooking"> Cooking</a></li>
+            <li><a href="#schedule"> Schedule</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id ="my-favs">
+            <h3>My Favorite Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+        </section>
+
+        <section id="cooking">
+            <h3>Steps to make French Toast</h3>
+            <ol>
+                <li>Beat 3 season eggs</li>
+                <li>Dip your bread slice in them and toast them in until golden brown</li>
+                <li>Serve with fruits, jams and chocolate</li>
+            </ol>
+        </section>
+
+        <section id="schedule">
+            <h3>My Weekly Schedule TimeTable</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Class</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Data Structures and Algorithm</td>
+                        <td>10 AM</td>
+                    </tr>
+
+                     <tr>
+                        <td>Tuesday</td>
+                        <td>HTML</td>
+                        <td>2 PM</td>
+                    </tr>
+
+                     <tr>
+                        <td>Wednesday</td>
+                        <td>Database</td>
+                        <td>8 AM</td>
+                    </tr>
+
+                     <tr>
+                        <td>Thursday</td>
+                        <td>Java</td>
+                        <td>4 PM</td>
+                    </tr>
+
+                     <tr>
+                        <td>Friday</td>
+                        <td>Python</td>
+                        <td>1 PM</td>
+                    </tr>
+                </tbody>
+                
+               
+            </table>
+
+        </section>
+
+
+        <section id="media-collection">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2XHYMpmUtGT0gUkjs81ulZry2-BU5DCOyk8bjYTP1y35d5j4TcKI9FlwcaU4eXw1W-cremfIssMat51Y_V9TOL2BVUGEq24pUsfvP-AcUmF2-hxc9Xwx9wOUk1O81nB6ez3gd=s1360-w1360-h1020-rw" alt="The lourve" width="300" height="300"><br>
+            <audio controls>
+                <source src="https://pixabay.com/sound-effects/broken-audio-file-distortion-104395/" type="audio">
+            </audio><br>
+            <video controls  width="300" height="300">
+                <source src="https://youtu.be/XqZsoesa55w?si=xSeMawoFSdLb8RMh" type="video">
+            </video><br>
+        </section>
+
+        <section id="form">
+            <label>Information Form</label>
+            <form>
+                <label>First Name: </label>
+                <input type="text" name="First Name" placeholder="John" required><br>
+                <label>Last Name: </label>
+                <input type="text" name="Last Name" placeholder="Doe" required><br>
+                <label>Email: </label>
+                <input type="email" name="Email" placeholder="john_doe@example.com" required><br>
+                <label>Password: </label>
+                <input type="password" name="Password" minlength="8" maxlength="32"><br>
+                <label>Age: </label>
+                <input type="number" name="Age"><br>
+                <label>Birthday: </label>
+                <input type="date" name="Birthday"><br>
+
+                <label>Gender: </label><br>
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender" id="Female">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Male"><br>
+
+                <label>Favorite Sport: </label><br>
+                <input type="checkbox" name="sport">
+                <label>Basketball</label><br>
+                <input type="checkbox" name="sport">
+                <label>Football</label><br>
+                <input type="checkbox" name="sport">
+                <label>Tennis</label><br>
+                <input type="checkbox" name="sport">
+                <label>Golf</label><br>
+
+                <label>Continent</label>
+                <select name="Continent">
+                    <option value="Africa">Africa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="NAmerica">North America</option>
+                    <option value="SAmerica">South America</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Australia">Australia</option>
+                    
+                </select><br>
+
+                <label>Write your thoughts here</label><br>
+                <textarea name="comment" rows="5" columns="20" placeholder="Any thoughts">
+                </textarea>
+                
+                
+                
+            </form>
+        </section>
+    </main>
+
+    
+</body>
+</html>
